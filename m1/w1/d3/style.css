@@ -13,7 +13,9 @@
     border-style:solid; 
     border-color: rgb(255, 255, 166); 
     background-color: rgba(247, 247, 114, 0.11);
-    border-width: 3px 0px;
+    border-bottom: 3px ;
+    border-left: 0px;
+    border-right: 0px;
 
 }
 /* Main */
