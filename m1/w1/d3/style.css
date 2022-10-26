@@ -1,41 +1,69 @@
- body{
-    font-family: 'Signika', sans-serif;;
+ body {
+     font-family: 'Signika', sans-serif;
+     ;
  }
-/* header */
-.header{
-    text-align: center;
+
+ /* header */
+ .header {
+     text-align: center;
+ }
+
+ #header-p {
+     text-align: center;
+     color: rgb(16, 137, 141);
+     font-size: large;
+     background-color: rgba(247, 247, 114, 0.11);
+     border-top: 3px solid rgb(255, 255, 166);
+
+
+ }
+
+ /* Main */
+
+ .main-p {
+     border-left: 1px solid orange;
+ }
+
+ .sezioneprincipale {
+     display: block;
+     margin-top: 40px;
+     max-width: 80%;
+     margin-right: 25%;
+     margin-left: 25%;
+ }
+
+
+.sezioneprincipale h1 {
+     text-align: center;
+ }
+
+.sezioneprincipale p {
+     text-align: center;
 }
 
-#header-p{
-    text-align: center;
-    color: rgb(16, 137, 141);
-    font-size: large;
-    border-style:solid; 
-    border-color: rgb(255, 255, 166); 
-    background-color: rgba(247, 247, 114, 0.11);
-    border-bottom: 3px ;
-    border-left: 0px;
-    border-right: 0px;
-
-}
-/* Main */
-.main{
-    text-align: center;
+#immagine{
+     margin-right: 25%;
+     margin-left: 25%;
+     text-align: center;
 }
 
-.main-p{
- text-align: left;
- color:  orange;
- border-style:solid; 
- border-color: orange; 
- border-width: 0px 3px;
- 
+#feautured{
+    text-align: left;
+    color: orange;
 }
 
 
-h1, h2{
-    font-weight: bold;
-    color: rgb(194, 35, 35);
-   
-}
+ h1,h2 {
+     font-weight: bold;
+     color: rgb(194, 35, 35);
+ }
 
+ aside {
+     margin-right: 25%;
+     margin-left: 25%;
+ }
+
+ footer {
+     margin-right: 25%;
+     margin-left: 25%;
+ }
