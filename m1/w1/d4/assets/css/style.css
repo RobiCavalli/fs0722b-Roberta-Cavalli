@@ -7,7 +7,7 @@ body {
 }
 
 /* HEADER */
-.header{
+.header {
     background-color: cadetblue;
 }
 
@@ -16,15 +16,15 @@ body {
     margin-right: 25%;
 }
 
-.menu{
+.menu {
     text-align: center;
 }
 
-.menu p{
+.menu p {
     color: white;
 }
 
-.icone-menu{
+.icone-menu {
     color: white;
 }
 
@@ -46,9 +46,9 @@ a:hover {
 }
 
 .main ul {
-  list-style: square;
-  padding-left: 30px;
-  
+    list-style: square;
+    padding-left: 30px; 
+
 }
 
 main {
@@ -59,7 +59,7 @@ main {
     padding: 10px;
 }
 
-span{
+span {
     color: #FF00FE;
 }
 
@@ -74,9 +74,13 @@ caption {
 
 table {
     margin-bottom: 2rem;
+    text-align: center;
+    padding: 8px;
 }
 
-table, th, td {
+table,
+th,
+td {
     text-align: center;
     padding: 0.5rem;
 }
@@ -100,12 +104,12 @@ tbody {
 
 /* form */
 
-.novità{
+.novità {
     background-color: darkgrey;
     margin-bottom: 15px;
 }
 
-h2{
+h2 {
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 40px;
@@ -113,10 +117,9 @@ h2{
 }
 
 
-
 /* articoli */
 
-.articoli{
+.articoli {
     background-color: darkgrey;
     margin-bottom: 15px;
 }
@@ -125,7 +128,6 @@ h2{
     text-decoration: underline;
     color: blue;
 }
-
 
 
 /* FOOTER */

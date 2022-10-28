@@ -1,0 +1,130 @@
+/* Your styles here */
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #393d41;
+    font-size: 1.2rem;
+    line-height: 1.65em;
+    padding: 10px;
+}
+
+/* Header */
+
+header{
+    text-align: center;
+    background-color: black;
+}
+
+#logo{
+   margin: 0 auto;
+   width:70%;
+}
+
+   
+
+/* Main */
+/* Sezione1 */
+
+
+.section1{
+    background-image: url(../images/banner.jpg);
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size:xx-large;
+    color: #25a2c3;
+    line-height: 1.5;
+}
+
+
+
+
+.section1 img{
+    width: 5%;
+    margin-bottom: 40px;
+}
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+}
+/* Sezione2 */
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #25a2c3;
+    line-height: 1.5;
+}
+
+.section2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section2 img{
+    border-radius: 50% 50%;
+    margin-bottom: 70px;
+    text-align: center;
+    border: #c8e7f0;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+
+/* Section */
+
+.epicode{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.epicode, blockquote{
+    font-style: italic;
+    font-size: medium;
+}
+
+
+/*Article*/
+
+
+
+.foto1, .foto2, .foto3{
+    margin-bottom: 30px;
+    text-align: center;
+    border: #c8e7f0;
+}
+
+article img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+
+
+
+/*Footer*/
+
+footer{
+    background-color: #25a2c3; 
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+  
+a:link,a:visited,a:hover, a:active {
+    text-decoration:dashed;
+    color: #c8e7f0;
+    cursor:pointer;
+}
+
+ 
