@@ -4,17 +4,6 @@
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-var a = prompt('Primo numero intero')
-
-var b = prompt('Secondo numero intero')
-
-if (a > b) {
-  document.write(a);
-
-} else {
-  document.write(b)
-}
-
 
 
 
@@ -24,16 +13,7 @@ if (a > b) {
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-var c = prompt ('Numero intero')
 
-var equal = 'equal'
-var notequal = 'not equal'
-
-if (c = 5 ){
-   console.log (equal)
-} else {
-  console.log (notequal)
-}
 
 
 /* SCRIVI QUI LA TUA RISPOSTA */
