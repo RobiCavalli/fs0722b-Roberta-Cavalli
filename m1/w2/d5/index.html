@@ -8,48 +8,43 @@
     <title>Calcolatrice</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
 
 
-    <h1>LA MIA CALCOLATRICE IN JS</h1>
+    <h1>BACK TO SCHOOL</h1>
 
 
-    <div class="contenitore">
+    <div id="contenitore">
         <div><input id="numeri" placeholder="0" type="text"></div>
         <div class="tasti">
-            <button data-simbolo="7" onclick="aggiungiCifra(this)">7</button>
-            <button data-simbolo="8" onclick="aggiungiCifra(this)">8</button>
-            <button data-simbolo="9" onclick="aggiungiCifra(this)">9</button>
-            <button data-simbolo="/" onclick="aggiungiCifra(this)">/</button>
-        </div>
 
-        <div class="tasti">
-            <button data-simbolo="4" onclick="aggiungiCifra(this)">4</button>
-            <button data-simbolo="5" onclick="aggiungiCifra(this)">5</button>
-            <button data-simbolo="6" onclick="aggiungiCifra(this)">6</button>
-            <button data-simbolo="*" onclick="aggiungiCifra(this)">x</button>
-        </div>
 
-        <div class="tasti">
-            <button data-simbolo="1" onclick="aggiungiCifra(this)">1</button>
-            <button data-simbolo="2" onclick="aggiungiCifra(this)">2</button>
-            <button data-simbolo="3" onclick="aggiungiCifra(this)">3</button>
-            <button data-simbolo="-" onclick="aggiungiCifra(this)">-</button>
+            <button class="tasti" data-simbolo="7" onclick="aggiungiCifra(this)">7</button>
         </div>
-        <div class ="tasti">
-            <button data-simbolo="C" onclick="cancellaTutto(this)">C</button>
-            <button data-simbolo="0" onclick="aggiungiCifra(this)">0</button>
-            <button data-simbolo="." onclick="aggiungiCifra(this)">.</button>
-            <button data-simbolo="+" onclick="aggiungiCifra(this)">+</button>
-        </div>
-        
-        <div class = "totale">
-        <button onclick="tot()">=</button></div>
-        </div>
+        <button class="tasti" data-simbolo="8" onclick="aggiungiCifra(this)">8</button>
+        <button class="tasti" data-simbolo="9" onclick="aggiungiCifra(this)">9</button>
+        <button class="tasti" data-simbolo="/" onclick="aggiungiCifra(this)">/</button>
+        <button class="tasti" data-simbolo="4" onclick="aggiungiCifra(this)">4</button>
+        <button class="tasti" data-simbolo="5" onclick="aggiungiCifra(this)">5</button>
+        <button class="tasti" data-simbolo="6" onclick="aggiungiCifra(this)">6</button>
+        <button class="tasti" data-simbolo="*" onclick="aggiungiCifra(this)">x</button>
+        <button class="tasti" data-simbolo="1" onclick="aggiungiCifra(this)">1</button>
+        <button class="tasti" data-simbolo="2" onclick="aggiungiCifra(this)">2</button>
+        <button class="tasti" data-simbolo="3" onclick="aggiungiCifra(this)">3</button>
+        <button class="tasti" data-simbolo="-" onclick="aggiungiCifra(this)">-</button>
+        <button class="tasti" data-simbolo="C" onclick="cancellaTutto(this)">C</button>
+        <button class="tasti" data-simbolo="0" onclick="aggiungiCifra(this)">0</button>
+        <button class="tasti" data-simbolo="." onclick="aggiungiCifra(this)">.</button>
+        <button class="tasti" data-simbolo="+" onclick="aggiungiCifra(this)">+</button>
+        <button id="somma" onclick="tot()">=</button>
+    </div>
+
 
     </div>
 
