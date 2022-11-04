@@ -1,0 +1,15 @@
+body {
+    background-image: url("");
+    font-family: 'Noto Serif', serif;
+}
+
+h1 {
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(142, 36, 82) 0%, rgb(87, 4, 76) 38%, rgba(214, 0, 136, 0.852) 100%);
+
+}
+
+.contenitore {
+    border: solid 3px fuchsia;
+}
