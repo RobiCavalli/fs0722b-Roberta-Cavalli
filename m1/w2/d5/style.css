@@ -12,15 +12,17 @@ h1 {
     font-weight: bold;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgb(200, 113, 151) 5%, rgb(142, 20, 126) 38%, rgba(221, 160, 199, 0.852) 70%);
-    padding: 10px;
+    margin-top: 130px;
+    padding: 20px;
 
 }
 
 #contenitore{
-    border: solid 10px fuchsia;
-    height: 480px;
-    width: 370px;
-    margin: 5em auto;
+   
+    border: solid 15px fuchsia;
+    height: 460px;
+    width: 350px;
+    margin: 150px auto;
     padding: 1em;
     
 }
