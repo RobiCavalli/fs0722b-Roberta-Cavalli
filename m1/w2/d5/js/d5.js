@@ -11,5 +11,6 @@
         }
 
         function cancellaTutto (bottone){
-            document.getElementById('numeri').value =''
+            document.getElementById('numeri').value ='';
         }
+
