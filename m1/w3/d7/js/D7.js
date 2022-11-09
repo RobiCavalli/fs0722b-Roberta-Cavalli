@@ -83,14 +83,14 @@ findEvenNumbers(array)
 /* ESERCIZIO 6
   Scrivi una funzione per sommare a catena i numeri contenuti in un array.
  */
-function es6(array){
+/*function es6(array){
 }
 var som = 0 
 for (var i =0; i< array.lenght; i++)
 {
   som+= array[i];
 }
-return(som);
+return(som); */
 
 /* ESERCIZIO 7
   Scrivi una funzione per incrementare di 1 tutti i valori numerici in un array.
