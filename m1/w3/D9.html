@@ -66,8 +66,10 @@
        Scrivi una funzione per cambiare la classe del titolo della pagina in "myHeading".
       */
 
-      const addClassToTitle = function (myHeading) {
-        document.querySelector('h1').classList.toggle(myHeading);
+      const addClassToTitle = function () {
+        let title = document.querySelector('h1')
+        title.classList.remove('myClass')
+        title.classList.remove('myheading');
       };
 
       addClassToTitle('myHeading');
@@ -88,7 +90,8 @@
       */
 
       const changeUrls = function () {
-        document
+      let cambiolink = document.querySelector('a');
+      cambiolink.href ="https://www.google.com/";
       }
 
       /* ESERCIZIO 5
@@ -96,8 +99,12 @@
       */
 
       const addToTheSecond = function (content) {
-        //
+        let SecondList = document.querySelector('#secondlist');
+        let test = document.creatElement('li')
+        test.innerHTML = content;
+        SecondList.appendChild(test);
       }
+      addToTheSecond('gatto');
 
       /* ESERCIZIO 6
        Scrivi una funzione per aggiungere un secondo paragrafo al primo div.
