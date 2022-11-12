@@ -393,7 +393,7 @@ console.log(onlyTheYears(movies))
 /* ESERCIZIO 15
   Scrivi una funzione chiamata "onlyInLastMillennium" che ritorna solamente i film prodotto nel millennio scorso contenuti nell'array "movies" fornito.
 */
-function onlyInLastMillennium (array){
+/*function onlyInLastMillennium (array){
   let es15 = []
   for (let millenio of array) {
     if (millenio.Year < 2000) { //del millenio scorso
