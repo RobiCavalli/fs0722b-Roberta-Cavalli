@@ -27,6 +27,9 @@ header {
   box-shadow: 0 3px 3px #444;
   margin-bottom: 1.5em;
   padding: 2em 1.5em;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 @media screen and (min-width: 800px) {
@@ -344,6 +347,15 @@ aside div {
   padding: 1em;
 }
 
+.fa-tag  {
+  float: right;
+  font-size: 70px;
+  color: rgb(197, 193, 193);
+  position: relative;
+  bottom: 30px;
+
+}
+
 @media screen and (min-width: 1200px) {
   aside div {
     display: inline-block;
@@ -425,29 +437,27 @@ footer a {
   position: fixed;
   bottom: 10px;
   right: -7px;
-
+  background-color: #ffffffa1;
+  border-radius: 3px solid white;
 }
 
-.social {
+.icone {
   position: fixed;
   bottom: 20vh;
   right: -7px;
-}
-
-.toTop a, .social a {
-  color: #c77ea2;
-  font-size: 2rem;
-  display: block;
+  background-color: #ffffffa1;
+  border-radius: 3px solid white;
  
 }
 
-  .social a {
+.toTop a, .icone a {
+  color: #c77ea2;
+  font-size: 2rem;
+  display: block;
+
+}
+
+  .icone a {
       color: rgb(45, 101, 185);
   }
 
-.toTop .far, .social .far {
-  border-radius: 5px solid white;
-  padding:20px;
-  background-color: white 0.5;
-  
-}
