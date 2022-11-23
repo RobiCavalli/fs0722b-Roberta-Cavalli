@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Nav */
+nav {
+  display: flex;
+  border: 1px;
+  border-radius: 30px;
+  background-color: #FBF7E3;
+  width: 650px;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+}
+
+nav button {
+  border:#F3DF85;
+  background-color:#F3DF85 ;
+  color: #672d0F;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 40px;
+  width: 40%;
+}
+
+
+button img {
+  width: 30%;
+}
+
+main{
+    display: flex;
+     flex-direction: column; 
+     align-items: center;
+  }
+  
+  /* Carte */
+  article {
+    margin-top: 20px;
+    border: 1px solid #fbf7e3;
+    border-radius: 170px 170px 110px 110px;
+    background:  #fbf7e3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 450px;
+  }
+  
+
+  article h3 {
+    margin-bottom: 0; 
+    color: #672d0f;
+  }
+  article p {
+    margin-top: 0;
+    color: #672d0f;
+  }
+  article img {
+   
+    max-width: 100%;
+    height: 300px;
+    position: relative;
+    top: 0;
+    border-radius: 100px 100px 0px 0px;
+  }
+  article span {
+    float:right;
+  }
+  .titolo{
+  
+    display: flex;
+    flex-direction: column;
+  }
+  .titolo p {
+    display: flex;
+  }
+  
+  article button {
+    background-color: #f3df85 ;
+    color: #672d0f;
+    width: 70%;
+    margin-left: 15%;
+    border: 1px solid #fbf7e3;
+    border-radius: 40px;
+    padding: 7px;
+    font-weight: 600;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .gruppocarte{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+
+  }
+   
+/* ArticleMiele */
+
+
+.article-miele{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #FBF7E3;
+    border-radius: 40px;
+    background-color:#FBF7E3;
+    width: 440px;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.article-miele img {
+    max-width:80%;
+    margin-left: 20px;
+    padding-bottom: 10px;
+
+}
+
+
+.article-miele p{
+    font-size: 10px;
+    color:#672d0F;
+    padding-bottom: 20px;
+}
+
+.article-miele h2{
+    font-weight: bold;
+    color: #672d0F;
+    
+}
