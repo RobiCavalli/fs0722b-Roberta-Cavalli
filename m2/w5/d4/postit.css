@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap%27');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.contenitore{
+    display: flex;
+    flex-wrap: wrap;
+align-items: stretch;
+    gap: 1%;
+    justify-content: space-around;
+    margin:30px
+}
+
+
+
+.post-it{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 200px;
+    margin-top: 40px;
+    transition: padding ;
+
+   /* box-shadow: 1px 1px 3px grey;
+    box-shadow: inset 1px 50px 10x #dedede;
+  background-blend-mode: color;*/
+  animation-name: post-it ;
+  animation-duration: 1s;
+
+} 
+@keyframes post-it {
+    0%{transform: scale(10)}
+    100%{transform: scale(0px);}
+}
+.giallo{
+    background-color: #f7f7c5;
+     transform: rotate( -5deg);
+}
+.verde{
+    background-color: #bbe1bc;
+    transform: rotate(5deg);
+}
+.viola{
+    background-color: #b7b7d1;
+    transform: rotate(-7deg);
+}
+.post-it:hover{
+    padding:20px;
+transform: rotate(0deg);
+
+}
+
+.post-it h2, p{
+    text-align: center;
+    margin: 50px auto;
+    font-weight: 400;
+}
+.post-it h2{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
