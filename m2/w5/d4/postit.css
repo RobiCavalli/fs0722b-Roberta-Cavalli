@@ -32,15 +32,15 @@ align-items: stretch;
     100%{transform: scale(0px);}
 }
 .giallo{
-    background-color: #f7f7c5;
+    background-color:#bdbda3;
      transform: rotate( -5deg);
 }
 .verde{
-    background-color: #bbe1bc;
+    background-color:#a8c2a9;
     transform: rotate(5deg);
 }
 .viola{
-    background-color: #b7b7d1;
+    background-color: #b2b2ce;
     transform: rotate(-7deg);
 }
 .post-it:hover{

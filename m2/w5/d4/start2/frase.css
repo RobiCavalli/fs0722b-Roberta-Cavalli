@@ -18,11 +18,25 @@
     border: 1px solid black;
     width: 40%;
 }
-.parole{font-family:'Indie Flower', cursive ;
-animation: frase 2s 1 ease;}
+.parole{font-family:'Indie Flower', cursive ;}
 
 @keyframes frase {
     0%{transform: translateY(20px); opacity: 0; }
     50%{transform: translateY( 0px); opacity:1 } 
-    100%{ transform: translatey(-40px) ; opacity: 0; color: fuchsia; }
+    100%{ transform: translateY(-40px) ; opacity: 0; color: fuchsia; }
+}
+
+.parole i{
+    color: transparent;
+    position: absolute;
+    animation: frase 2s 1 ease;
+    margin-left: 5px;
+}
+
+.parole i:nth-child(2){
+    animation-delay:1s;
+}
+
+.parole i:nth-child(3){
+    animation-delay:2s;
 }
