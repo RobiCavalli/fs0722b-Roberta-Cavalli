@@ -66,11 +66,12 @@ section img {
 }
 
 /* Article */
-.text{
+.text{ 
     display: flex;
+    flex-wrap: wrap;
 }
 .text div{
-    flex-basis:50%;
+    display: flex;
 }
 
 
