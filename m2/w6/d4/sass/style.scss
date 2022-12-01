@@ -1,0 +1,71 @@
+@mixin basenav($bgColor) {
+    background: $bgColor;
+    box-shadow: 0 0 10px $bgColor;
+    color: white;
+    border-radius: 25px;
+
+    &:hover {
+        color: $bgColor;
+        background: lightblue;
+        box-shadow: none;
+    }
+}
+
+
+// nav
+.nav1 {
+    @include basenav (blue);
+
+    ul {
+        display: flex;
+        margin: 20px;
+    }
+
+    li {
+        margin: 20px;
+    }
+
+
+}
+
+// main
+.container {
+    width: 70%;
+}
+
+
+
+main {
+    display: flex;
+    align-content: stretch;
+    justify-content: space-around;
+    align-items: baseline;
+
+    .aside1 {
+        width: 20%;
+
+        ul {
+            justify-content: center;
+            list-style: none;
+            width: 50px;
+
+            li {
+                padding-top: 10px;
+                border-bottom: 1px solid black;
+            }
+        }
+    }
+
+}
+
+
+
+
+
+
+
+// footer
+footer{
+    background-color: blue;
+    height: 50px;
+}
