@@ -32,3 +32,5 @@ cella3.innerHTML = utente.compleanno
 
 
 }
+
+new date().getFullYear
