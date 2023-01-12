@@ -1,4 +1,4 @@
-"use strict";
+add .Math;"use strict";
 let utente1 = {
     nome: 'laura',
     numero: 26
