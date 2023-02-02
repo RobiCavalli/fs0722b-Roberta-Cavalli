@@ -6,8 +6,9 @@ public class Main {
 	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		pariDispari("ciao");
+		pariDispari("gatto");
 		annoBisestile(2018);
+		stampaNumero(3);
 		contoRovescia(5);
 	}
 
@@ -49,9 +50,9 @@ public class Main {
 		
 		// 3s
 		
-		/*public static void es3 (String a, String b ) {
+		/*public String[] split(String regex) {
 			while ( b != "q") {
-				System.out.println(a);
+				System.out.println(b);
 				break;
 			}
 			
