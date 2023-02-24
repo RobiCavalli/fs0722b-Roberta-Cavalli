@@ -1,17 +1,26 @@
 package Esercizio;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDate;
 import javax.persistence.Column;
+import javax.persistence.DiscriminatorColumn;
+import javax.persistence.DiscriminatorType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.Table;
 
 
 @Entity
-
+@Table (name = "utente1")
+@Inheritance(strategy =InheritanceType.TABLE_PER_CLASS)
 public class Utente implements Serializable{
+/**
+	 * 
+	 */
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
 @Column(name = "numerotessera")
@@ -21,7 +30,7 @@ private String nome;
 @Column(name = "cognome")
 private String cognome;
 @Column(name = "datanascita")
-private Date datanascita;
+private LocalDate datanascita;
 
 
 public int getNumerotessera() {
@@ -54,19 +63,22 @@ public void setCognome(String cognome) {
 }
 
 
-public Date getDatanascita() {
+public LocalDate getDatanascita() {
 	return datanascita;
 }
 
 
-public void setDatanascita(Date datanascita) {
-	this.datanascita = datanascita;
+public void setDatanascita(LocalDate localDate) {
+	this.datanascita = localDate;
 }
 
 
 public Utente() {
 	super();
 }
+
+
+
 
 
 

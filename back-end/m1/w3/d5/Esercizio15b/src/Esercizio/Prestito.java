@@ -1,24 +1,33 @@
 package Esercizio;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.time.LocalDate;
 
+
+import javax.persistence.DiscriminatorColumn;
+import javax.persistence.DiscriminatorType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.Table;
 
 
 @Entity
+@Table (name = "prestito1")
+@Inheritance(strategy =InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name ="Tipoprestito",discriminatorType = DiscriminatorType.STRING )
 
 public class Prestito implements Serializable{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private String utente;
 	private int elementoprestato;
-	private Date inizioprestito;
-	private Date restituzioneprevista;
-	private Date restituzioneffettiva;
+	private LocalDate inizioprestito;
+	private LocalDate restituzioneprevista;
+	private LocalDate restituzioneffettiva;
 	
 	public String getUtente() {
 		return utente;
@@ -36,27 +45,27 @@ public class Prestito implements Serializable{
 		this.elementoprestato = elementoprestato;
 	}
 
-	public Date getInizioprestito() {
+	public LocalDate getInizioprestito() {
 		return inizioprestito;
 	}
 
-	public void setInizioprestito(Date inizioprestito) {
+	public void setInizioprestito(LocalDate inizioprestito) {
 		this.inizioprestito = inizioprestito;
 	}
 
-	public Date getRestituzioneprevista() {
+	public LocalDate getRestituzioneprevista() {
 		return restituzioneprevista;
 	}
 
-	public void setRestituzioneprevista(Date restituzioneprevista) {
+	public void setRestituzioneprevista(LocalDate restituzioneprevista) {
 		this.restituzioneprevista = restituzioneprevista;
 	}
 
-	public Date getRestituzioneffettiva() {
+	public LocalDate getRestituzioneffettiva() {
 		return restituzioneffettiva;
 	}
 
-	public void setRestituzioneffettiva(Date restituzioneffettiva) {
+	public void setRestituzioneffettiva(LocalDate restituzioneffettiva) {
 		this.restituzioneffettiva = restituzioneffettiva;
 	}
 
