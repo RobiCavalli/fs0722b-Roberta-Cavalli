@@ -8,7 +8,7 @@ import com.GestionePrenotazioni1.repository.PostazioneRepository;
 @Service
 public class PostazioneService {
 	@Autowired PostazioneRepository repo;
-	public void insertEdificio(Postazione postazione) {
+	public void insertPostazione(Postazione postazione) {
 		repo.save(postazione);
 	}
 }

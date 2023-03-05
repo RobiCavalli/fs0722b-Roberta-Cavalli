@@ -32,8 +32,8 @@ public class UtenteRunner implements ApplicationRunner {
 	     uservice.insertUtente(u);
 	     uservice.insertUtente(u1);
 	     uservice.insertUtente(u2);
-		
-		 uservice.getUtentebyId((long) 1);
+	
+		uservice.getUtentebyId(null);
 		
 		
 		

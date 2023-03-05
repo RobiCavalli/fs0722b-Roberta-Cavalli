@@ -21,7 +21,7 @@ public class PostazioneRunner implements ApplicationRunner {
 		po1.setScadenza(true);
 		po1.setTipo(PostazioneTipo.SALARIUNIONI);
 		
-		poservice.insertEdificio(po1);
+		poservice.insertPostazione(po1);
 		
 		
 	}

@@ -18,8 +18,6 @@ private PostazioneTipo tipo;
 private Integer numeroccupanti;
 private Boolean scadenza;
 	
-@OneToOne
-@JoinColumn (name = "edificio", referencedColumnName = "id")
-private Edificio edificio;
+
 	
 }
