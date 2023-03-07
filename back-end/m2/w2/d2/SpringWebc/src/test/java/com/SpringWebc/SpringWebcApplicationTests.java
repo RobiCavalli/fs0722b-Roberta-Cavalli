@@ -1,10 +1,10 @@
-package com.SpringWeba;
+package com.SpringWebc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringWebaApplicationTests {
+class SpringWebcApplicationTests {
 
 	@Test
 	void contextLoads() {
