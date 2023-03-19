@@ -1,0 +1,442 @@
+.container {
+    width: 700px;
+    height: 450px;
+    position: absolute;
+    border: 1px solid blue;
+    margin: auto;
+    z-index: 0;
+}
+
+
+.container img {
+    width: 100%;
+}
+
+.pesci {
+    width: 35px;
+    position: relative;
+    z-index: 1;
+    bottom: 450px;
+}
+
+
+/* Animazione Pesci */
+/* 1 */
+#pesce1b {
+    animation-name: pesce1;
+    animation-duration: 14s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+/* 2 */
+#pesce2b {
+    animation-name: pesce2;
+    animation-duration: 14s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards
+}
+
+/* 3 */
+#pesce3a {
+    animation-name: pesce3;
+    animation-duration: 14s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+
+}
+
+/* 4 */
+#pesce4a {
+    animation-name: pesce4;
+    animation-duration: 14s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+
+}
+
+/* 5 */
+#pesce5a {
+    animation-name: pesce5;
+    animation-duration: 14s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+
+}
+
+/* 6 */
+#pesce6b {
+    animation-name: pesce6;
+    animation-duration: 14s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+
+}
+
+/* 7 */
+#pesce7a {
+    animation-name: pesce7;
+    animation-duration: 14s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+
+}
+
+/* 8 */
+#pesce8b {
+    animation-name: pesce8;
+    animation-duration: 14s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+
+}
+
+/* 9 */
+#pesce9b {
+    animation-name: pesce9;
+    animation-duration: 14s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+
+}
+
+/* 10 */
+#pesce10a {
+    animation-name: pesce10;
+    animation-duration: 14s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+
+}
+
+
+/* p1 */
+@keyframes pesce1 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(300px, 10px) rotate(4deg);
+    }
+
+    40% {
+        transform: translate(250px) rotate(-6deg) scale(1, 1.4);
+    }
+
+    60% {
+        transform: translate(320px, -13px) rotate(1deg);
+    }
+
+    80% {
+        transform: translate(580px, 12px) rotate(6deg) scale(1, 1.6);
+    }
+
+    95% {
+        transform: translate(200px, 10px) rotate(10deg) scale(1, 1.6);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* p2 */
+@keyframes pesce2 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(280px, 12px) rotate(4deg);
+    }
+
+    30% {
+        transform: translate(240px) rotate(-6deg) scale(1, 1.5);
+    }
+
+    50% {
+        transform: translate(330px, -13px) rotate(1deg);
+    }
+
+    85% {
+        transform: translate(560px, 15px) rotate(6deg) scale(1, 1.6);
+    }
+
+    95% {
+        transform: translate(230px, 12px) rotate(10deg) scale(1, 1.6);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* p3 */
+@keyframes pesce3 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(290px, 13px) rotate(4deg);
+    }
+
+    30% {
+        transform: translate(230px) rotate(-6deg) scale(1, 1.4);
+    }
+
+    60% {
+        transform: translate(330px, -15px) rotate(1deg);
+    }
+
+    85% {
+        transform: translate(570px, 13px) rotate(6deg) scale(1, 1.6);
+    }
+
+    95% {
+        transform: translate(210px, 14px) rotate(10deg) scale(1, 1.6);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* p4 */
+@keyframes pesce4 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(330px, 15px) rotate(4deg);
+    }
+
+    45% {
+        transform: translate(260px) rotate(-6deg) scale(1, 1.5);
+    }
+
+    60% {
+        transform: translate(330px, -13px) rotate(1deg);
+    }
+
+    85% {
+        transform: translate(560px, 12px) rotate(6deg) scale(1, 1.6);
+    }
+
+    95% {
+        transform: translate(220px, 13px) rotate(10deg) scale(1, 1.6);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* p5 */
+@keyframes pesce5 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(340px, 16px) rotate(4deg);
+    }
+
+    30% {
+        transform: translate(230px) rotate(-6deg) scale(1, 1.4);
+    }
+
+    45% {
+        transform: translate(320px, -20px) rotate(1deg);
+    }
+
+    85% {
+        transform: translate(570px, 14px) rotate(6deg) scale(1, 1.6);
+    }
+
+    95% {
+        transform: translate(210px, 15px) rotate(10deg) scale(1, 1.6);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* p6 */
+@keyframes pesce6 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(310px, 10px) rotate(4deg);
+    }
+
+    30% {
+        transform: translate(240px) rotate(-6deg) scale(1, 1.4);
+    }
+
+    45% {
+        transform: translate(330px, -20px) rotate(1deg);
+    }
+
+    70% {
+        transform: translate(570px, 12px) rotate(6deg) scale(1, 1.6);
+    }
+
+    95% {
+        transform: translate(200px, 13px) rotate(10deg) scale(1, 1.6);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* p7 */
+@keyframes pesce7 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(330px, 13px) rotate(4deg);
+    }
+
+    30% {
+        transform: translate(250px) rotate(-6deg) scale(1, 1.6);
+    }
+
+    60% {
+        transform: translate(320px, -12px) rotate(1deg);
+    }
+
+    70% {
+        transform: translate(580px, 11px) rotate(6deg) scale(1, 1.6);
+    }
+
+    95% {
+        transform: translate(200px, 13px) rotate(10deg) scale(1, 1.6);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* p8 */
+@keyframes pesce8 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(330px, 12px) rotate(4deg);
+    }
+
+    35% {
+        transform: translate(250px) rotate(-6deg) scale(1, 1.5);
+    }
+
+    50% {
+        transform: translate(320px, -12px) rotate(1deg);
+    }
+
+    70% {
+        transform: translate(580px, 12px) rotate(6deg) scale(1, 1.6);
+    }
+
+    95% {
+        transform: translate(200px, 13px) rotate(10deg) scale(1, 1.6);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* p9 */
+@keyframes pesce9 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    20% {
+        transform: translate(340px, 11px) rotate(4deg);
+    }
+
+    45% {
+        transform: translate(250px) rotate(-6deg) scale(1, 1.4);
+    }
+
+    65% {
+        transform: translate(320px, -14px) rotate(1deg);
+    }
+
+    80% {
+        transform: translate(580px, 13px) rotate(6deg) scale(1, 1.6);
+    }
+
+    95% {
+        transform: translate(200px, 12px) rotate(10deg) scale(1, 1.6);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
+/* p10 */
+@keyframes pesce10 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    22% {
+        transform: translate(350px, 15px) rotate(4deg);
+    }
+
+    40% {
+        transform: translate(250px) rotate(-6deg) scale(1, 1.5);
+    }
+
+    65% {
+        transform: translate(320px, -14px) rotate(1deg);
+    }
+
+    80% {
+        transform: translate(580px, 12px) rotate(6deg) scale(1, 1.6);
+    }
+
+    95% {
+        transform: translate(200px, 13px) rotate(10deg) scale(1, 1.6);
+    }
+
+    to {
+        transform: translate(0px, 0px);
+    }
+}
+
