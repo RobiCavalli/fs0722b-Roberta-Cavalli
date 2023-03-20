@@ -1,5 +1,9 @@
 package com.SistemaAntIncedio.model;
 
-public interface SistemaControllo {
-
+public class SistemaControllo {
+String messaggio;
+public String invioMessaggio(String messaggio) {  
+	System.out.println(messaggio);
+	return messaggio;
+}
 }
