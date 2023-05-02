@@ -1,7 +1,0 @@
-<input type="text" placeholder="Enter New Task" #task />
-<button (click)="addTask(task.value)">AddTask</button>
-<ul class="list-group list-group-flush" *ngFor="let t of todo">
-  <li todo.title class="list-group-item">
-    <i class="bi bi-check2-all">{{ t.title }}</i><button (click) = "disattiva(t.id)" >Delete</button>
-  </li>
-</ul>
